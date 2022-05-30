@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* =============================== < Helper CSS > =============================== */
+ul {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+/* =============================== < Header CSS > =============================== */
+.header {
+    padding: 60px 0 105px;
+    background-color: #fcdb00;
+}
+
+.header .navbar-brand {
+    padding: 0;
+}
+
+.header .navbar-default {
+    background: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.header .navbar-nav>li>a {
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.header .navbar-nav {
+    margin-bottom: 70px;
+}
+
+.iPadImg {
+    margin-left: 6%;
+}
+
+.inspire {
+    margin-top: 75px;
+}
+
+.heading-pri {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #010101;
+    margin: 0 0 25px 0;
+}
+
+.heading-sec {
+    font-size: 20px;
+    color: #313841;
+    margin: 0 0 25px 0;
+}
+
+.para {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.links i {
+    font-size: 42px;
+    color: #010101;
+}
+
+/* =============================== < Features CSS > =============================== */
+.features {
+    padding: 120px 0 70px;
+}
+
+.features-heading {
+    margin-bottom: 90px;
+    padding: 0 35px;
+}
+
+.myThumbnails {
+    margin-bottom: 90px;
+}
+
+.thumb-icon {
+    text-align: center;
+}
+
+.thumb-icon i {
+    font-size: 50px;
+    text-align: center;
+    color: #010101;
+}
+
+.thumb-info {
+    padding-right: 35px;
+}
+
+.thumb-info h4 {
+    font-size: 22px;
+    /* font-weight: bold; */
+    color: #010101;
+    text-transform: capitalize;
+}
+
+/* =============================== < Footer CSS > =============================== */
+.footer {
+    padding: 100px 0 140px;
+    background-color: #010101;
+}
+
+.footer .heading-pri {
+    color: #fcdb00;
+    font-weight: 400;
+}
+
+.footer .heading-sec {
+    color: #898989;
+    margin-bottom: 45px;
+}
+
+.footer-heading {
+    margin-bottom: 130px;
+    padding: 0 35px;
+}
+
+.contactForm {
+    margin-bottom: 80px;
+}
+
+.submit {
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.social-links li i {
+    color: #fcdb00;
+    font-size: 42px;
+}
+
+.footer-links li,
+.footer-links li a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* =============================== < Mobile Responsive CSS > =============================== */
+
+@media all and (max-width: 768px) {
+    .header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #010101;
+    }
+
+    .header .container-fluid>.navbar-collapse,
+    .header .container-fluid>.navbar-header,
+    .header .container>.navbar-collapse,
+    .header .container>.navbar-header {
+        border: none;
+    }
+
+    .header .navbar-default .navbar-toggle:focus,
+    .header .navbar-default .navbar-toggle:hover {
+        background-color: #fcdb00;
+    }
+
+    .inspire {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .iPadImg {
+        margin: 30px 0 0 0;
+    }
+
+    .inspire-iPad {
+        text-align: center;
+    }
+
+    .thumb-info {
+        padding-right: 0;
+    }
+
+    .contactForm {
+        margin-bottom: 40px;
+    }
+
+    .footer-heading {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .mob-response {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
